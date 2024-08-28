@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ttt {
+    animation: ttt 4s infinite;
+}
+
+.xxx {
+    animation: xxx 4s infinite;
+}
+
+.aaa {
+    animation: aaa 5s infinite;
+}
+
+@keyframes ttt {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes xxx {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+}
+
+@layer components {
+    .display-none {
+        @apply hidden;
+    }
+
+    #theme-switch {
+        @apply h-[50px] w-[50px] p-0 justify-center items-center flex;
+    }
+
+    .nav {
+        @apply text-dark-lite font-medium text-lg hover:text-dark-deep dark:text-white-deep dark:hover:text-white-lite;
+    }
+
+    .button {
+        @apply bg-gradient-to-r from-primary2 to-primary1 py-2 px-3 rounded-xl text-white font-semibold;
+    }
+
+    .lang{
+        @apply transition duration-200 ease-in hover:-translate-y-1 hover:scale-110 cursor-pointer;
+    }
+}
