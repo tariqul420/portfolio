@@ -54,7 +54,8 @@
 }
 
 .card {
-    min-width: 33.333%; /* Show 3 cards at a time */
+    min-width: 33.333%;
+    /* Show 3 cards at a time */
     box-sizing: border-box;
     padding: 20px;
     background-color: #fff;
@@ -84,6 +85,9 @@
     background-color: #007bff;
 }
 
+.visible {
+    display: block;
+}
 
 @layer components {
     .display-none {
