@@ -54,7 +54,7 @@
 
         <div class="max-sm:hidden space-x-3">
           <button>
-            <a href="#" class="button">Contact Me</a>
+            <a href="#contact" class="button">Contact Me</a>
           </button>
         </div>
 
@@ -78,7 +78,10 @@
               <a href="#work" class="text-paragraph-2 font-bold">Works</a>
             </li>
             <li class="hover:text-primary transition-colors ease-in-out duration-300">
-              <a href="#wxperince" class="text-paragraph-2 font-bold">Experience</a>
+              <a href="#experince" class="text-paragraph-2 font-bold">Experience</a>
+            </li>
+            <li class="hover:text-primary transition-colors ease-in-out duration-300">
+              <a href="#contact" class="text-paragraph-2 font-bold">Contact me</a>
             </li>
           </ul>
         </div>
@@ -209,7 +212,7 @@
         </div>
       </section>
       
-      <!-- Experience section start hear -->
+      <!-- ? Experience section start hear -->
       <section class="flex flex-col w-11/12 mx-auto pt-28 items-center justify-center" id="experiance">
         <button class="mx-auto px-4 py-2 bg-[#E2E8F0] rounded-lg mb-4">Experience</button>
         <h2 class="text-4xl text-center text-primary1 font-semibold leading-[48px] mb-10">Here is a quick summary of my<br class="max-sm:hidden">most recent experiences</h2>
@@ -264,6 +267,69 @@
                 </div></div>
         </div>
       </section>
+
+      <!-- ! Contact section star hear -->
+      <section id='contact' class="flex flex-col w-11/12 mx-auto pt-28 items-center justify-center">
+        <button class="mx-auto px-4 py-2 bg-[#E2E8F0] rounded-lg mb-4">Contact me</button>
+        <h2 class="text-4xl text-center text-primary1 font-semibold leading-[48px] mb-10">Please Contact me<br class="max-sm:hidden">Click the any Platform</h2>
+        <div class="flex gap-8 flex-col lg:flex-row items-start">
+            <div class="space-y-6">
+                <article class="bg-[#172635] flex flex-col items-center justify-center w-[340px] h-[140px] rounded-xl border border-solid border-primary2 space-y-3">
+                    <img class="w-8" src="assets/gmail.png" alt="">
+                    <p class="text-white-deep font-medium">Gmail</p>
+                    <a target="_blank" class="text-primary1" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.islam.programmer@gmail.com" rel="noreferrer">Send a message</a>
+                </article>
+                <article class="bg-[#172635] flex flex-col items-center justify-center w-[340px] h-[140px] rounded-xl border border-solid border-primary2 space-y-3">
+                    <img class="w-8" src="assets/messenger.png" alt="">
+                    <p class="text-white-deep font-medium">Messenger</p>
+                    <a target="_blank" class="text-primary1" href="https://m.me/tariqul.islam.fb" rel="noreferrer">Send a message</a>
+                </article>
+                <article class="bg-[#172635] flex flex-col items-center justify-center w-[340px] h-[140px] rounded-xl border border-solid border-primary2 space-y-3">
+                    <img class="w-8" src="assets/whatsapp.png" alt="">
+                    <p class="text-white-deep font-medium">Whatsapp</p>
+                    <a target="_blank" class="text-primary1" href="https://wa.me/+8801568831067" rel="noreferrer">Send a message</a>
+                </article>
+            </div>
+
+            <form class="flex flex-col space-y-6 w-11/12" action="https://formspree.io/f/mjkbkjqn" method="POST">
+              <input
+                class="input focus:outline-0 md:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid dark:border-primary2 dark:text-white-deep"
+                type="text"
+                name="Full Name"
+                placeholder="Full Name"
+                id="fullName"
+                required
+                oninvalid="this.setCustomValidity('Enter your Full Name');"
+                onchange="try{setCustomValidity('')}catch(e){};"
+                x-moz-errormessage="Enter your Full Name"
+              />
+              <input
+              class="input focus:outline-0 md:w-96 mx-auto dark:bg-transparent dark:border dark:border-solid dark:border-primary2 dark:text-white-deep"
+                type="email"
+                name="Email Address"
+                placeholder="Email Address"
+                id="emailAddress"
+                required
+                oninvalid="this.setCustomValidity('Enter your Email Address');"
+                onchange="try{setCustomValidity('')}catch(e){};"
+                x-moz-errormessage="Enter your Email Address"
+              />
+            <textarea
+              class="textarea focus:outline-0 md:w-96 resize-none mx-auto dark:bg-transparent dark:border dark:border-solid dark:border-primary2 dark:text-white-deep"
+              name="Message Body"
+              id="yourMessage"
+              cols="30"
+              rows="8"
+              placeholder="Your Message"
+              required
+              oninvalid="this.setCustomValidity('Write something here');"
+              onchange="try{setCustomValidity('')}catch(e){};"
+              x-moz-errormessage="Write something here"
+            ></textarea>
+            <input  type="submit" name="SUBMIT" value="SUBMIT" class="button cursor-pointer" />
+          </form>
+        </div>
+    </section>
 
       <!-- done project section start hear -->
       <section class="py-32">
