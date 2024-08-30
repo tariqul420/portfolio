@@ -90,10 +90,6 @@ updateCarousel();
 setInterval(showNextCard, 3000); // Auto-slide every 3 seconds */
 
 
-function sendEmail() {
-  window.location.href = "mailto:tariqul.islam.programmer@gmail.com?subject=Hello&body=I%20wanted%20to%20reach%20out%20to%20you.";
-}
-
 // ? Hide and Show
 const content1 = document.getElementById('content1');
 
