@@ -38,6 +38,34 @@
     }
 }
 
+/* Change the color of the plus icon */
+.collapse input[type="radio"]:checked ~ .collapse-title::after {
+    color: #38BD67;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Change the color of the minus icon */
+.collapse input[type="radio"]:not(:checked) ~ .collapse-title::after {
+    color: #38BD67;
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Change the color of inactive dots */
+.swiper-pagination-bullet {
+    background-color: #38BD67;
+    opacity: 1;
+}
+
+/* Change the color of the active dot */
+.swiper-pagination-bullet-active {
+    background-color: #38BD67;
+    opacity: 1;
+}
+
 @layer components {
     .display-none {
         @apply hidden;

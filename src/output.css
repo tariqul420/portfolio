@@ -2112,10 +2112,6 @@ details.collapse summary::-webkit-details-marker {
   width: 2rem;
 }
 
-.w-9\/12 {
-  width: 75%;
-}
-
 .w-\[20\.6rem\] {
   width: 20.6rem;
 }
@@ -2252,10 +2248,6 @@ details.collapse summary::-webkit-details-marker {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.overflow-y-scroll {
-  overflow-y: scroll;
 }
 
 .scroll-smooth {
@@ -2470,10 +2462,6 @@ details.collapse summary::-webkit-details-marker {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.pb-56 {
-  padding-bottom: 14rem;
 }
 
 .pb-8 {
@@ -2722,6 +2710,38 @@ details.collapse summary::-webkit-details-marker {
   50% {
     transform: translateY(20px);
   }
+}
+
+/* Change the color of the plus icon */
+
+.collapse input[type="radio"]:checked ~ .collapse-title::after {
+  color: #38BD67;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* Change the color of the minus icon */
+
+.collapse input[type="radio"]:not(:checked) ~ .collapse-title::after {
+  color: #38BD67;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* Change the color of inactive dots */
+
+.swiper-pagination-bullet {
+  background-color: #38BD67;
+  opacity: 1;
+}
+
+/* Change the color of the active dot */
+
+.swiper-pagination-bullet-active {
+  background-color: #38BD67;
+  opacity: 1;
 }
 
 .hover\:-translate-y-2:hover {

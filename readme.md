@@ -4,15 +4,15 @@
  
 <figure>
   <figcaption>Pc/Laptop Screen</figcaption>
-  <img src="./assets/pc_laptop.png" title="Pc/Laptop Screen" alt="Pc/Laptop Screen" width="100%">
+  <img src="./assets/pc_laptop.png" title="Pc/Laptop Screen" alt="Pc/Laptop Screen" width="auto">
 </figure>
 
 <figure>
   <figcaption>Medium Screen</figcaption>
-  <img src="./assets/tablete.png" title="Medium Screen" alt="Medium Screen" width="100%">
+  <img src="./assets/tablete.png" title="Medium Screen" alt="Medium Screen" width="auto">
 </figure>
 
 <figure>
   <figcaption>Mobile Screen</figcaption>
-  <img src="./assets/mobile.png" title="Mobile Screen" alt="Mobile Screen" width="100%">
+  <img src="./assets/mobile.png" title="Mobile Screen" alt="Mobile Screen" width="auto">
 </figure>
