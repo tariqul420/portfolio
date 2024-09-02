@@ -2208,6 +2208,10 @@ details.collapse summary::-webkit-details-marker {
   gap: 6px;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2484,6 +2488,14 @@ details.collapse summary::-webkit-details-marker {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 .text-start {
   text-align: start;
 }
@@ -2623,6 +2635,15 @@ details.collapse summary::-webkit-details-marker {
   color: rgb(223 223 223 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#38BD67\] {
+  --tw-text-opacity: 1;
+  color: rgb(56 189 103 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -2676,72 +2697,6 @@ details.collapse summary::-webkit-details-marker {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.ttt {
-  animation: ttt 4s infinite;
-}
-
-.xxx {
-  animation: xxx 4s infinite;
-}
-
-.aaa {
-  animation: aaa 5s infinite;
-}
-
-@keyframes ttt {
-  0%,
-    100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-20px);
-  }
-}
-
-@keyframes xxx {
-  0%,
-    100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(20px);
-  }
-}
-
-/* Change the color of the plus icon */
-
-.collapse input[type="radio"]:checked ~ .collapse-title::after {
-  color: #38BD67;
-  font-size: 1.7rem;
-  text-align: center;
-  font-weight: 300;
-}
-
-/* Change the color of the minus icon */
-
-.collapse input[type="radio"]:not(:checked) ~ .collapse-title::after {
-  color: #38BD67;
-  font-size: 1.7rem;
-  text-align: center;
-  font-weight: 300;
-}
-
-/* Change the color of inactive dots */
-
-.swiper-pagination-bullet {
-  background-color: #38BD67;
-  opacity: 1;
-}
-
-/* Change the color of the active dot */
-
-.swiper-pagination-bullet-active {
-  background-color: #38BD67;
-  opacity: 1;
 }
 
 .hover\:-translate-y-2:hover {
@@ -2896,8 +2851,20 @@ details.collapse summary::-webkit-details-marker {
     flex-direction: column;
   }
 
+  .max-sm\:items-center {
+    align-items: center;
+  }
+
+  .max-sm\:justify-center {
+    justify-content: center;
+  }
+
   .max-sm\:gap-5 {
     gap: 1.25rem;
+  }
+
+  .max-sm\:gap-0 {
+    gap: 0px;
   }
 
   .max-sm\:space-y-5 > :not([hidden]) ~ :not([hidden]) {
@@ -2915,6 +2882,30 @@ details.collapse summary::-webkit-details-marker {
   .max-sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .max-sm\:text-center {
+    text-align: center;
+  }
+
+  .max-sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .max-sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .max-sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .max-sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
@@ -2969,6 +2960,22 @@ details.collapse summary::-webkit-details-marker {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-\[3\.5rem\] {
+    font-size: 3.5rem;
+  }
+
+  .md\:text-\[4\.5rem\] {
+    font-size: 4.5rem;
+  }
+
+  .md\:text-\[\] {
+    color: ;
+  }
+
+  .md\:text-\[3\.5\] {
+    color: 3.5;
   }
 }
 
@@ -3029,8 +3036,32 @@ details.collapse summary::-webkit-details-marker {
     align-items: flex-start;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
   .lg\:text-start {
     text-align: start;
+  }
+
+  .lg\:text-\[2\.5rem\] {
+    font-size: 2.5rem;
+  }
+
+  .lg\:text-\[3\.5rem\] {
+    font-size: 3.5rem;
+  }
+
+  .lg\:text-\[5\.5rem\] {
+    font-size: 5.5rem;
   }
 }
 

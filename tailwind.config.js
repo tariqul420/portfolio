@@ -14,9 +14,6 @@ module.exports = {
         'dark-deep': "#172635",
         'dark-lite': "#17263599",
       },
-      backgroundImage: {
-        'contact-texture': "url('../assets/bg.jpg')",
-      },
     },
   },
   plugins: [require("daisyui")],

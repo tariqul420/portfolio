@@ -21,14 +21,16 @@
     <link rel="shortcut icon" href="assets/letter-t.png" type="image/x-icon" />
     <title>Tariqul Islam</title>
     <link rel="stylesheet" href="src/output.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="font-poppins box-border max-w-[90rem] mx-auto">
     <!-- ? nav bar section section start hear -->
     <nav class="z-[1000] mx-auto sticky top-4 flex items-center justify-between py-4 px-4 w-11/12 bg-[#F2F6FA] border border-solid rounded-xl dark:bg-gradient-to-tr  dark:from-[#15314c] dark:to-[#0f1729] dark:border-none">
       <div>
-        <p class="text-dark-deep font-semibold text-3xl dark:text-white-deep">
-          <span class="text-primary1"><span><</span>T</span>ariqul<span class="text-primary2">/></span>
-        </p>
+        <a href="#">
+          <p class="text-dark-deep font-semibold text-3xl dark:text-white-deep">
+            <span class="text-primary1"><span><</span>T</span>ariqul<span class="text-primary2">/></span></p>
+        </a>
       </div>
 
       <div class="space-x-8 hidden lg:block">
@@ -95,13 +97,25 @@
     <!-- todo Header section start hear -->
     <header id="home" class="bg-gradient-to-r from-[#E9F2FF] to-[#F2F6FA] -mt-[5.1rem] pt-28 pb-8 dark:bg-gradient-to-r dark:from-[#15314c] dark:to-[#0f1729]">
       <section class="w-11/12 mx-auto flex items-center flex-col-reverse lg:flex-row gap-20">
-        <div class=" flex-1">
-          <p class="text-dark-deep text-[2.5rem] font-semibold dark:text-white-lite">Hi, I'm</p>
-          <h1 class="text-dark-deep text-[3.5rem] font-bold dark:text-white-lite">Tariqul Islam</h1>
-          <p class="text-2xl text-dark-lite font-medium dark:text-white-deep">A passional <span class="text-primary1"> <span><</span> Frontend Web Development/><span> <span class="text-dark-lite dark:text-white-deep">with 4 years experience creating user friendly websites</span></p>
-          <button class="pt-8 transition duration-200 ease-in hover:-translate-y-2 hover:scale-105  hover:shadow-2xl">
-            <a href="#" class="button text-xl px-4 py-3">Download Resume</a>
-          </button>
+        <div class=" flex-1 items-center justify-center">
+          <p class="text-dark-deep text-[2.5rem] md:text-[3.5rem] lg:text-[2.5rem] font-semibold dark:text-white-lite text-center lg:text-left">Hi, I'm</p>
+          <h1 class="text-dark-deep text-[3.5rem] md:text-[4.5rem] lg:text-[3.5rem] font-bold dark:text-white-lite text-center lg:text-left max-sm:text-5xl">Tariqul Islam</h1>
+          <div class="mt-4">
+            <div class="flex gap-3 max-sm:gap-0 max-sm:flex-col justify-center items-center lg:justify-start">
+              <div><p class="text-2xl text-dark-lite font-medium dark:text-white-deep text-center">A passional</p></div>
+              <div class="text-container">
+                <p class="text-center typing-animation text-2xl font-bold text-[#38BD67]"></p>
+              </div>
+            </div>
+            <div>
+              <p class="text-2xl text-dark-lite font-medium dark:text-white-deep text-center lg:text-start">with 4 years experience creating user friendly websites</p>
+            </div>
+          </div>
+          <div class="flex justify-center lg:justify-start">
+            <button class="pt-8 transition duration-200 ease-in hover:-translate-y-2 hover:scale-105  hover:shadow-2xl">
+              <a href="#" class="button text-xl px-4 py-3">Download Resume</a>
+            </button>
+          </div>
         </div>
 
         <div class="flex-1 relative">
