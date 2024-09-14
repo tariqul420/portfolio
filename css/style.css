@@ -56,22 +56,31 @@
 
 /* Typing animation */
 @keyframes typing {
-    0%, 20% {
+
+    0%,
+    20% {
         width: 0;
     }
-    40%, 60% {
+
+    40%,
+    60% {
         width: 28ch;
     }
-    80%, 100% {
+
+    80%,
+    100% {
         width: 0;
     }
 }
 
 /* Blinking cursor animation */
 @keyframes blink-caret {
-    from, to {
+
+    from,
+    to {
         border-color: transparent;
     }
+
     50% {
         border-color: #38BD67;
     }
@@ -83,16 +92,20 @@
 }
 
 @keyframes textChange {
-    0%, 50% {
+
+    0%,
+    50% {
         content: "<Frontend Developer/>";
     }
-    51%, 100% {
+
+    51%,
+    100% {
         content: "UI/UX Designer . . . . . . . . . ";
     }
 }
 
 /* Change the color of the plus icon */
-.collapse input[type="radio"]:checked ~ .collapse-title::after {
+.collapse input[type="radio"]:checked~.collapse-title::after {
     color: #38BD67;
     font-size: 1.7rem;
     text-align: center;
@@ -100,7 +113,7 @@
 }
 
 /* Change the color of the minus icon */
-.collapse input[type="radio"]:not(:checked) ~ .collapse-title::after {
+.collapse input[type="radio"]:not(:checked)~.collapse-title::after {
     color: #38BD67;
     font-size: 1.7rem;
     text-align: center;
@@ -117,4 +130,31 @@
 .swiper-pagination-bullet-active {
     background-color: #38BD67;
     opacity: 1;
+}
+
+/* heading profile button */
+#head_btn {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#head_btn:hover {
+    box-shadow: 0 0 20px 5px rgb(47, 162, 88);
+}
+
+.glowing {
+    animation: glow 1.5s infinite ease-in-out;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px 5px rgb(47, 162, 88);
+    }
+
+    50% {
+        box-shadow: 0 0 30px 10px rgb(47, 162, 88);
+    }
+
+    100% {
+        box-shadow: 0 0 10px 5px rgb(47, 162, 88);
+    }
 }
