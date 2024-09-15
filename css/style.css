@@ -134,15 +134,7 @@
 
 /* heading profile button */
 #head_btn {
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-#head_btn:hover {
-    box-shadow: 0 0 20px 5px rgb(47, 162, 88);
-}
-
-.glowing {
-    animation: glow 1.5s infinite ease-in-out;
+    animation: glow 2s infinite ease-in-out;
 }
 
 @keyframes glow {
@@ -151,7 +143,7 @@
     }
 
     50% {
-        box-shadow: 0 0 30px 10px rgb(47, 162, 88);
+        box-shadow: 0 0 30px 10px rgb(47, 162, 87);
     }
 
     100% {
