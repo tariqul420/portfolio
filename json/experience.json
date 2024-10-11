@@ -1,0 +1,37 @@
+{
+  "experience": [
+    {
+      "heading": "UX/UI Designer",
+      "category": "@Freelancer",
+      "date": "Jan 2025 - Present",
+      "location": "Dhaka",
+      "location2": ", Ahmed Tower",
+      "name": "Behance.net/tariqul420",
+      "link": "Behance.net/tariqul420",
+      "description": "Designing user interfaces and user experiences for websites and mobile applications",
+      "tools": ["Figma", "Adobe XD", "Adobe Photoshop"]
+    },
+    {
+      "heading": "Fullstack Web developer",
+      "category": "@programming-hero",
+      "date": "Sep 2025 - Present",
+      "location": "Dhaka",
+      "location2": ", Ahmed Tower",
+      "name": "programming-hero.com",
+      "link": "https://www.programming-hero.com",
+      "description": "At programming-hero, I design and develop captivating web solutions that seamlessly blend creativity and functionality.",
+      "tools": ["Javascript", "Python", "Java", "C++", "C#", "PHP", "Golang", "SQL", "Firebase", "React"]
+    },
+    {
+      "heading": "Frontend Web developer",
+      "category": "@Freelancer",
+      "date": "Aug 2024 - Present",
+      "location": "Dhaka",
+      "location2": ", Ahmed Tower",
+      "name": "tariqul.vercel.app",
+      "link": "https://tariqul.vercel.app",
+      "description": "Developing front-end and back-end of websites for clients",
+      "tools": ["HTML", "CSS", "Tailwind", "Bootstrap", "Javascript", "React", "Mongodb", "Firebase", "Nodejs"]
+    }
+  ]
+}
