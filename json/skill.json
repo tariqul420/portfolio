@@ -1,0 +1,64 @@
+{
+    "skill": [
+        {
+            "id": 1,
+            "image": "../assets/html-5.png",
+            "name": "html5"
+        },
+        {
+            "id": 2,
+            "image": "../assets/css-3.png",
+            "name": "css3"
+        },
+        {
+            "id": 3,
+            "image": "../assets/Tailwind.png",
+            "name": "tailwind"
+        },
+        {
+            "id": 4,
+            "image": "../assets/Bootstrap.png",
+            "name": "bootstrap"
+        },
+        {
+            "id": 5,
+            "image": "../assets/js.png",
+            "name": "javascript"
+        },
+        {
+            "id": 6,
+            "image": "../assets/react.png",
+            "name": "react"
+        },
+        {
+            "id": 7,
+            "image": "../assets/mongodb.png",
+            "name": "mongodb"
+        },
+        {
+            "id": 8,
+            "image": "../assets/firebase.png",
+            "name": "firebase"
+        },
+        {
+            "id": 9,
+            "image": "../assets/node-js.png",
+            "name": "nodejs"
+        },
+        {
+            "id": 10,
+            "image": "../assets/github-color.svg",
+            "name": "github"
+        },
+        {
+            "id": 11,
+            "image": "../assets/git-icon.png",
+            "name": "git"
+        },
+        {
+            "id": 12,
+            "image": "../assets/figma.png",
+            "name": "figma"
+        }
+    ]
+}
