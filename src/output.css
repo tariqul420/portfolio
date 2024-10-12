@@ -2280,6 +2280,10 @@ details.collapse summary::-webkit-details-marker {
   height: 35rem;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .max-h-\[200px\] {
   max-height: 200px;
 }
@@ -2322,6 +2326,14 @@ details.collapse summary::-webkit-details-marker {
 
 .w-full {
   width: 100%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-7 {
+  width: 1.75rem;
 }
 
 .max-w-\[90rem\] {

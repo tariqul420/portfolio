@@ -1,0 +1,29 @@
+{
+    "socialMedia": [
+        {
+            "link": "https://www.facebook.com/tariqul.islam.fb",
+            "image": "../assets/facebook.png",
+            "alt": "facebook"
+        },
+        {
+            "link": "https://github.com/tariqul420",
+            "image": "../assets/github0.png",
+            "alt": "github"
+        },
+        {
+            "link": "https://bd.linkedin.com",
+            "image": "../assets/linkedin.png",
+            "alt": "linkedin"
+        },
+        {
+            "link": "https://t.me/tariqul017?",
+            "image": "../assets/telegram.png",
+            "alt": "telegram"
+        },
+        {
+            "link": "https://https://www.instagram.com/tariqul.islam.fb",
+            "image": "../assets/instagram.png",
+            "alt": "instagram"
+        }
+    ]
+}

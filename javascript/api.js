@@ -129,14 +129,25 @@ const contactCard = async () => {
 };
 
 const socialMedia = async () => {
-  const api = await fetch("../json/contact.json");
+  const api = await fetch("../json/socialMedia.json");
   const data = await api.json();
-  const allData = data["contactCard"];
+  const allData = data["socialMedia"];
 
-  const socialContainer = document.getElementById("contact-card-container");
-}
+  const socialContainer = document.querySelectorAll(".social-icon");
+  socialContainer.forEach((className) => {
+    allData.forEach((data) => {
+      const { link, image, alt} = data;
+      const socialIcon = document.createElement("div");
+      socialIcon.innerHTML = `
+      <a target="_blank" href="${link}"><img class="w-8 lang" src="${image}" alt="${alt}" /></a>
+      `;
+      className.append(socialIcon);
+    });
+  });
+};
 
 skillFunction();
 workFunction();
 experience();
 contactCard();
+socialMedia();
