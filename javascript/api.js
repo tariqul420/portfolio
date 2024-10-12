@@ -39,11 +39,10 @@ const workFunction = async () => {
                       <span class="language">${tools[0]}</span>
                       <span class="language">${tools[1]}</span>
                       <span class="language">${tools[2]}</span>
-                      ${tools[3] ? '<span class="language">' + tools[3] + '</span>' : ""}
+                      ${tools[3] ? '<span class="language">' + tools[3] + "</span>" : ""}
                     </div>
                     <div class="flex justify-between items-center mt-5 cursor-pointer dark:text-white-deep">
-                      <a href="${live}" target="_blank" class="flex items-center gap-[6px]"
-                        ><i class="fa-solid fa-link"></i><span class="text-[12px] underline">Live Preview</span></a>
+                      <a href="${live}" target="_blank" class="flex items-center gap-[6px]"><i class="fa-solid fa-link"></i><span class="text-[12px] underline">Live Preview</span></a>
                     </div>
                   </div>
                 </div>
@@ -78,7 +77,7 @@ const experience = async () => {
               </div>
               <div class="flex items-center justify-center gap-2">
                 <span><i class="fa-solid fa-link text-[#000000B3] dark:text-white-deep"></i></span>
-                <span class="text-xs sm:text-sm text-black/70 dark:text-white-deep"><a target="_blank" href="${link}">${name}</a></span>
+                <span class="text-xs sm:text-sm text-black/70 dark:text-white-deep hover:text-dark-deep"><a target="_blank" href="${link}">${name}</a></span>
               </div>
             </div>
 
@@ -90,15 +89,13 @@ const experience = async () => {
               <span class="language">${tools[0]}</span>
               <span class="language">${tools[1]}</span>
               <span class="language">${tools[2]}</span>
-              ${tools[3] ? '<span class="language">' + tools[3] + '</span>' : ""}
-              ${tools[4] ? '<span class="language">' + tools[4] + '</span>' : ""}
-              ${tools[5] ? '<span class="language">' + tools[5] + '</span>' : ""}
-              ${tools[6] ? '<span class="language">' + tools[6] + '</span>' : ""}
-              ${tools[7] ? '<span class="language">' + tools[7] + '</span>' : ""}
-              ${tools[8] ? '<span class="language">' + tools[8] + '</span>' : ""}
-              ${tools[9] ? '<span class="language">' + tools[9] + '</span>' : ""}
-              ${tools[10] ? '<span class="language">' + tools[10] + '</span>' : ""}
-              ${tools[11] ? '<span class="language">' + tools[11] + '</span>' : ""}
+              ${tools[3] ? `<span class="language">${tools[3]}</span>` : ""}
+              ${tools[4] ? `<span class="language">${tools[4]}</span>` : ""}
+              ${tools[5] ? `<span class="language">${tools[5]}</span>` : ""}
+              ${tools[6] ? `<span class="language">${tools[6]}</span>` : ""}
+              ${tools[7] ? `<span class="language">${tools[7]}</span>` : ""}
+              ${tools[8] ? `<span class="language">${tools[8]}</span>` : ""}
+              ${tools[9] ? `<span class="language">${tools[9]}</span>` : ""}
             </div>
           </div>
     `;
