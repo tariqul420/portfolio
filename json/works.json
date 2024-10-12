@@ -1,7 +1,6 @@
 {
     "works": [
         {
-            "id": 1,
             "image": "../assets/lelav-DixtAekI.png",
             "heading": "Lelav Tech",
             "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
@@ -9,7 +8,6 @@
             "live": "https://lelav.com"
         },
         {
-            "id": 2,
             "image": "../assets/banner.png",
             "heading": "Tariqul Islam",
             "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
@@ -17,7 +15,6 @@
             "live": "https://tariqul.vercel.app"
         },
         {
-            "id": 3,
             "image": "../assets/img2.jpg",
             "heading": "KCode Generator CSS",
             "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
@@ -25,7 +22,6 @@
             "live": "https://kcode-generation.vercel.app"
         },
         {
-            "id": 4,
             "image": "../assets/paralex.png",
             "heading": "Parallax Website",
             "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
@@ -33,7 +29,6 @@
             "live": "https://tariqul420.github.io/Parallax-website"
         },
         {
-            "id": 5,
             "image": "../assets/quiz.png",
             "heading": "Quiz Website",
             "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",
@@ -41,7 +36,6 @@
             "live": "https://tariqul420.github.io/Quiz-Website"
         },
         {
-            "id": 6,
             "image": "../assets/weather-apps.png",
             "heading": "Weather Checked",
             "paragraph": "Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...",

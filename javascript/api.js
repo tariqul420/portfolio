@@ -103,6 +103,40 @@ const experience = async () => {
   });
 };
 
+const contactCard = async () => {
+  const api = await fetch("../json/contact.json");
+  const data = await api.json();
+  const allData = data["contactCard"];
+
+  const contactCardContainer = document.getElementById("contact-card-container");
+
+  allData.forEach((data) => {
+    const { image, name, linkLaptop, linkMobile } = data;
+    const card = document.createElement("div");
+    card.className = "justify-center items-center gap-6 max-sm:space-y-6 md:flex lg:flex-col md:items-center";
+    card.innerHTML = `
+      <div class="bg-[#172635] flex flex-col items-center justify-center w-[20.6rem] mx-auto h-[140px] rounded-xl border border-solid border-primary2 space-y-3 dark:bg-[#0c434d]">
+        <img class="w-8" src="${image}" alt="" />
+        <p class="text-white-deep font-medium">${name}</p>
+        <p class="lg:hidden"><a target="_blank" class="text-primary1 w-full" href="${linkMobile}" rel="noreferrer">Send a message</a></p>
+        <p class="hidden lg:block">
+          <a target="_blank" class="text-primary1 w-full" href="${linkLaptop}" rel="noreferrer">Send a message</a>
+        </p>
+      </div>
+    `;
+    contactCardContainer.append(card);
+  });
+};
+
+const socialMedia = async () => {
+  const api = await fetch("../json/contact.json");
+  const data = await api.json();
+  const allData = data["contactCard"];
+
+  const socialContainer = document.getElementById("contact-card-container");
+}
+
 skillFunction();
 workFunction();
 experience();
+contactCard();

@@ -1,0 +1,22 @@
+{
+    "contactCard": [
+        {
+            "image": "../assets/gmail.png",
+            "name": "Gmail",
+            "linkLaptop": "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.islam.programmer@gmail.com",
+            "linkMobile": "mailto:tariqul.islam.programmer@gmail.com"
+        },
+        {
+            "image": "../assets/messenger.png",
+            "name": "Messenger",
+            "linkLaptop": "https://m.me/tariqul.islam.fb",
+            "linkMobile": "https://m.me/tariqul.islam.fb"
+        },
+        {
+            "image": "../assets/whatsapp.png",
+            "name": "Whatsapp",
+            "linkLaptop": "https://wa.me/+8801743892058",
+            "linkMobile": "https://wa.me/+8801743892058"
+        }
+    ]
+}

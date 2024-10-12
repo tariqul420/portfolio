@@ -188,31 +188,7 @@
         <h2 class="text-4xl text-center text-primary1 font-semibold leading-[48px] mb-10">Things I've built so far</h2>
 
         <div class="swiper mySwiper w-11/12 lg:w-9/12">
-          <div class="swiper-wrapper" id="work-card-container">
-            <!-- ! domo slide -->
-            <!-- <div class="slick-slide swiper-slide outline-none w-[307px]">
-                <div class="flex flex-col border rounded-[16px] w-full dark:border-primary2">
-                  <img src="/assets/weather-apps.png" width="200" height="200" class="max-h-[200px] min-h-[200px] w-full object-cover rounded-t-[16px]" />
-                  <div class="flex flex-col p-[14px]">
-                    <h1 class="font-medium text-[#172635] text-start text-splice dark:text-white-lite">Weather Checked</h1>
-                    <p class="text-xs text-[#172635]/60 text-start mt-[12px] dark:text-white-deep">
-                      Lelav Tech is an IT solutions company based in Duhok, Iraq that provides services such as website development,...
-                    </p>
-                    <div class="flex gap-[6px] mt-[8px]">
-                      <span class="language">HTML</span>
-                      <span class="language">CSS</span>
-                      <span class="language">Javascript</span>
-                    </div>
-                    <div class="flex justify-between items-center mt-5 cursor-pointer dark:text-white-deep">
-                      <a href="https://tariqul420.github.io/WEATHER-APPS/" target="_blank" class="flex items-center gap-[6px]"
-                        ><i class="fa-solid fa-link"></i><span class="text-[12px] underline">Live Preview</span></a
-                      >
-                    </div>
-                  </div>
-                </div>
-            </div> -->
-            
-          </div>
+          <div class="swiper-wrapper" id="work-card-container"></div>
           <div class="swiper-pagination"></div>
         </div>
       </section>
@@ -221,7 +197,6 @@
       <section class="flex flex-col w-11/12 mx-auto pt-28 items-center justify-center" id="experience">
         <button class="mx-auto px-4 py-2 bg-[#E2E8F0] rounded-lg mb-4">Experience</button>
         <h2 class="text-4xl text-center text-primary1 font-semibold leading-[48px] mb-10">Here is a quick summary of my<br class="max-sm:hidden" />most recent experiences</h2>
-
       </section>
 
       <!-- done Contact section star hear -->
@@ -230,33 +205,7 @@
         <h2 class="text-4xl text-center text-primary1 font-semibold leading-[48px] mb-10">Please Contact me <br class="max-sm:hidden" />Click the any Platform</h2>
 
         <div class="flex gap-8 flex-col lg:flex-row items-center justify-center">
-          <div class="gap-6 flex flex-col justify-center items-center">
-            <div class="justify-center items-center gap-6 max-sm:space-y-6 md:flex lg:flex-col md:items-center">
-              <div class="bg-[#172635] flex flex-col items-center justify-center w-[20.6rem] mx-auto h-[140px] rounded-xl border border-solid border-primary2 space-y-3 dark:bg-[#0c434d]">
-                <img class="w-8" src="assets/gmail.png" alt="" />
-                <p class="text-white-deep font-medium">Gmail</p>
-                <!-- ? mobile -->
-                <p class="lg:hidden"><a target="_blank" class="text-primary1 w-full" href="mailto:tariqul.islam.programmer@gmail.com" rel="noreferrer">Send a message</a></p>
-
-                <!-- ? pc / laptop -->
-                <p class="hidden lg:block">
-                  <a target="_blank" class="text-primary1 w-full" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.islam.programmer@gmail.com" rel="noreferrer">Send a message</a>
-                </p>
-              </div>
-
-              <div class="bg-[#172635] flex flex-col items-center justify-center w-[20.6rem] mx-auto h-[140px] rounded-xl border border-solid border-primary2 space-y-3 dark:bg-[#0c434d]">
-                <img class="w-8" src="assets/messenger.png" alt="" />
-                <p class="text-white-deep font-medium">Messenger</p>
-                <a target="_blank" class="text-primary1" href="https://m.me/tariqul.islam.fb" rel="noreferrer">Send a message</a>
-              </div>
-            </div>
-
-            <div class="bg-[#172635] flex flex-col items-center justify-center w-[20.6rem] mx-auto h-[140px] rounded-xl border border-solid border-primary2 space-y-3 dark:bg-[#0c434d]">
-              <img class="w-8" src="assets/whatsapp.png" alt="" />
-              <p class="text-white-deep font-medium">Whatsapp</p>
-              <a target="_blank" class="text-primary1" href="https://wa.me/+8801568831067" rel="noreferrer">Send a message</a>
-            </div>
-          </div>
+          <div id="contact-card-container" class="gap-6 flex flex-col justify-center items-center"></div>
 
           <form class="flex flex-col items-center justify-center space-y-6 w-11/12" action="https://formspree.io/f/mjkbkjqn" method="POST">
             <div>
@@ -318,16 +267,9 @@
           </div>
           <a href="#contact">
             <div
-              class="flex cursor-pointer items-center justify-center border-t-2 border-solid border-primary1 gap-2 bg-gradient-to-b from-[#205854] to-[#194541] px-4 py-2 rounded-xl hover:from-[#003f3b] hover:to-[#205854]"
-            >
+              class="flex cursor-pointer items-center justify-center border-t-2 border-solid border-primary1 gap-2 bg-gradient-to-b from-[#205854] to-[#194541] px-4 py-2 rounded-xl hover:from-[#003f3b] hover:to-[#205854]">
               <p>
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M15.625 6.56252H14.0625V5.00002C14.0623 4.52184 13.9054 4.05689 13.6158 3.67635C13.3263 3.2958 12.92 3.02062 12.4592 2.89292C11.9984 2.76522 11.5084 2.79204 11.0643 2.96927C10.6201 3.14649 10.2463 3.46437 10 3.87424C9.7537 3.46437 9.37987 3.14649 8.93574 2.96927C8.49161 2.79204 8.00164 2.76522 7.54083 2.89292C7.08001 3.02062 6.67372 3.2958 6.38416 3.67635C6.0946 4.05689 5.93771 4.52184 5.9375 5.00002V5.34612C5.6335 5.03585 5.24401 4.82311 4.81866 4.73501C4.39332 4.64691 3.95137 4.68744 3.54914 4.85143C3.14691 5.01543 2.80261 5.29546 2.56011 5.65584C2.31762 6.01623 2.1879 6.44065 2.1875 6.87502V10C2.1875 12.072 3.0106 14.0592 4.47573 15.5243C5.94086 16.9894 7.928 17.8125 10 17.8125C12.072 17.8125 14.0591 16.9894 15.5243 15.5243C16.9894 14.0592 17.8125 12.072 17.8125 10V8.75002C17.8125 8.16986 17.582 7.61346 17.1718 7.20323C16.7616 6.79299 16.2052 6.56252 15.625 6.56252ZM11.875 3.43752C12.2894 3.43752 12.6868 3.60214 12.9799 3.89517C13.2729 4.1882 13.4375 4.58562 13.4375 5.00002V6.56252H10.625C10.5185 6.56256 10.4127 6.58106 10.3125 6.61721V5.00002C10.3125 4.58562 10.4771 4.1882 10.7701 3.89517C11.0632 3.60214 11.4606 3.43752 11.875 3.43752ZM6.5625 5.00002C6.5625 4.58562 6.72712 4.1882 7.02015 3.89517C7.31317 3.60214 7.7106 3.43752 8.125 3.43752C8.5394 3.43752 8.93683 3.60214 9.22985 3.89517C9.52288 4.1882 9.6875 4.58562 9.6875 5.00002V8.12502C9.6875 8.53943 9.52288 8.93685 9.22985 9.22988C8.93683 9.5229 8.5394 9.68752 8.125 9.68752C7.7106 9.68752 7.31317 9.5229 7.02015 9.22988C6.72712 8.93685 6.5625 8.53943 6.5625 8.12502V5.00002ZM2.8125 6.87502C2.8125 6.46062 2.97712 6.0632 3.27015 5.77017C3.56317 5.47714 3.9606 5.31252 4.375 5.31252C4.7894 5.31252 5.18683 5.47714 5.47985 5.77017C5.77288 6.0632 5.9375 6.46062 5.9375 6.87502V8.12502C5.9375 8.53943 5.77288 8.93685 5.47985 9.22988C5.18683 9.5229 4.7894 9.68752 4.375 9.68752C3.9606 9.68752 3.56317 9.5229 3.27015 9.22988C2.97712 8.93685 2.8125 8.53943 2.8125 8.12502V6.87502ZM17.1875 10C17.1875 11.9063 16.4302 13.7344 15.0823 15.0824C13.7344 16.4303 11.9062 17.1875 10 17.1875C8.09376 17.1875 6.26559 16.4303 4.91767 15.0824C3.56975 13.7344 2.8125 11.9063 2.8125 10V9.65471C3.04636 9.89343 3.33181 10.0754 3.64694 10.1866C3.96206 10.2979 4.29848 10.3354 4.63038 10.2964C4.96228 10.2574 5.28084 10.1429 5.56159 9.96167C5.84235 9.78041 6.07784 9.53723 6.25 9.25081C6.43101 9.55193 6.68188 9.80502 6.9814 9.98866C7.28091 10.1723 7.62026 10.2811 7.97072 10.3059C8.32118 10.3306 8.67245 10.2706 8.99481 10.1309C9.31716 9.99115 9.60112 9.77584 9.82266 9.50315C9.9418 9.82645 10.1353 10.1172 10.3876 10.3518C10.6399 10.5865 10.9439 10.7585 11.275 10.8539C10.7885 11.1646 10.3881 11.5927 10.1107 12.0988C9.83322 12.605 9.68769 13.1728 9.6875 13.75C9.6875 13.8329 9.72042 13.9124 9.77903 13.971C9.83763 14.0296 9.91712 14.0625 10 14.0625C10.0829 14.0625 10.1624 14.0296 10.221 13.971C10.2796 13.9124 10.3125 13.8329 10.3125 13.75C10.3125 13.0041 10.6088 12.2887 11.1363 11.7613C11.6637 11.2338 12.3791 10.9375 13.125 10.9375C13.2079 10.9375 13.2874 10.9046 13.346 10.846C13.4046 10.7874 13.4375 10.7079 13.4375 10.625C13.4375 10.5421 13.4046 10.4627 13.346 10.4041C13.2874 10.3454 13.2079 10.3125 13.125 10.3125H11.875C11.4606 10.3125 11.0632 10.1479 10.7701 9.85488C10.4771 9.56185 10.3125 9.16443 10.3125 8.75002V7.50002C10.3125 7.41714 10.3454 7.33766 10.404 7.27905C10.4626 7.22045 10.5421 7.18752 10.625 7.18752H15.625C16.0394 7.18752 16.4368 7.35214 16.7299 7.64517C17.0229 7.9382 17.1875 8.33562 17.1875 8.75002V10Z"
-                    fill="white"
-                    fill-opacity="0.9"
-                  ></path>
-                </svg>
+                <img src="./assets/project.svg" alt="" />
               </p>
               <p class="text-white text-sm font-bold">Let's do it</p>
             </div>
@@ -336,7 +278,7 @@
       </section>
     </main>
 
-    <!-- ? footer section start hear -->
+    <!-- done footer section start hear -->
     <footer class="py-4 px-4 bg-[#F2F6FA] border border-solid dark:bg-gradient-to-tr dark:from-[#0c1220] dark:to-[#1a3e5f] dark:border-none">
       <div class="w-11/12 flex-col lg:flex-row flex items-center justify-between mx-auto space-y-4">
         <div>
@@ -345,15 +287,15 @@
           </p>
         </div>
         <div class="flex max-sm:flex-col justify-center items-center space-x-5 max-sm:space-y-5">
-          <!-- ? phone -->
-          <a class="lg:hidden" href="mailto:tariqul.islam.programmer@gmail.com" target="_blank"
-            ><p class="font-semibold text-dark-lite dark:text-white-deep hover:text-dark-deep">tariqul.islam.programmer@gmail.com</p></a
-          >
+          <!-- ! phone -->
+          <a class="lg:hidden" href="mailto:tariqul.islam.programmer@gmail.com" target="_blank">
+            <p class="font-semibold text-dark-lite dark:text-white-deep hover:text-dark-deep">tariqul.islam.programmer@gmail.com</p>
+          </a>
 
-          <!-- ? pc / Laptop -->
-          <a class="hidden lg:block" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.islam.programmer@gmail.com" target="_blank"
-            ><p class="font-semibold text-dark-lite dark:text-white-deep hover:text-dark-deep">tariqul.islam.programmer@gmail.com</p></a
-          >
+          <!-- ! pc / Laptop -->
+          <a class="hidden lg:block" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tariqul.islam.programmer@gmail.com" target="_blank">
+            <p class="font-semibold text-dark-lite dark:text-white-deep hover:text-dark-deep">tariqul.islam.programmer@gmail.com</p>
+            </a>
 
           <a href="tel:+8801743892058"><p class="font-semibold text-dark-lite dark:text-white-deep hover:text-dark-deep">+8801743892058</p></a>
           <div class="text-2xl flex space-x-2 mt-2">
