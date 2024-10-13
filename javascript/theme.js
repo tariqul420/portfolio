@@ -1,18 +1,14 @@
-// Icons
 const sunIcon = document.querySelector(".sun");
 const moonIcon = document.querySelector(".moon");
 
-// Theme vars
 const userTheme = localStorage.getItem("theme");
 const systemTheme = window.matchMedia("(prefers-color-scheme :dark)").matches;
 
-// Icon Toggling
 const iconToggle = () => {
   moonIcon.classList.toggle("display-none");
   sunIcon.classList.toggle("display-none");
 };
 
-// Initial Theme Check
 const themeCheck = () => {
   if (userTheme === "dark" || (!userTheme && systemTheme)) {
     document.documentElement.classList.add("dark");
@@ -22,7 +18,6 @@ const themeCheck = () => {
   sunIcon.classList.add("display-none");
 };
 
-// Manual Theme switch
 const themeSwitch = () => {
   if (document.documentElement.classList.contains("dark")) {
     document.documentElement.classList.remove("dark");
@@ -35,7 +30,6 @@ const themeSwitch = () => {
   iconToggle();
 };
 
-// Call Theme switch on Click Button
 sunIcon.addEventListener("click", () => {
   themeSwitch();
 });
@@ -44,5 +38,4 @@ moonIcon.addEventListener("click", () => {
   themeSwitch();
 });
 
-// Invoke Theme Check on Initial lode
 themeCheck();
