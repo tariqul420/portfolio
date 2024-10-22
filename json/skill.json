@@ -1,51 +1,51 @@
 {
     "skill": [
         {
-            "image": "../assets/html-5.png",
+            "image": "https://skillicons.dev/icons?i=html",
             "name": "html5"
         },
         {
-            "image": "../assets/css-3.png",
+            "image": "https://skillicons.dev/icons?i=css",
             "name": "css3"
         },
         {
-            "image": "../assets/Tailwind.png",
+            "image": "https://skillicons.dev/icons?i=tailwind",
             "name": "tailwind"
         },
         {
-            "image": "../assets/Bootstrap.png",
+            "image": "https://skillicons.dev/icons?i=bootstrap",
             "name": "bootstrap"
         },
         {
-            "image": "../assets/js.png",
+            "image": "https://skillicons.dev/icons?i=javascript",
             "name": "javascript"
         },
         {
-            "image": "../assets/react.png",
+            "image": "https://skillicons.dev/icons?i=react",
             "name": "react"
         },
         {
-            "image": "../assets/mongodb.png",
+            "image": "https://skillicons.dev/icons?i=mongodb",
             "name": "mongodb"
         },
         {
-            "image": "../assets/firebase.png",
+            "image": "https://skillicons.dev/icons?i=firebase",
             "name": "firebase"
         },
         {
-            "image": "../assets/node-js.png",
+            "image": "https://skillicons.dev/icons?i=nodejs",
             "name": "nodejs"
         },
         {
-            "image": "../assets/github-color.svg",
+            "image": "https://skillicons.dev/icons?i=github",
             "name": "github"
         },
         {
-            "image": "../assets/git-icon.png",
+            "image": "https://skillicons.dev/icons?i=git",
             "name": "git"
         },
         {
-            "image": "../assets/figma.png",
+            "image": "https://skillicons.dev/icons?i=figma",
             "name": "figma"
         }
     ]
