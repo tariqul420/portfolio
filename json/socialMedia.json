@@ -17,6 +17,11 @@
         },
         {
             "link": "https://t.me/tariqul017?",
+            "image": "../assets/whatsapp.png",
+            "alt": "whatsapp"
+        },
+        {
+            "link": "https://t.me/tariqul017?",
             "image": "../assets/telegram.png",
             "alt": "telegram"
         },

@@ -3,26 +3,29 @@
 @tailwind utilities;
 
 @layer components {
-    .display-none {
-        @apply hidden;
-    }
+  .display-none {
+    @apply hidden;
+  }
 
-    #theme-switch {
-        @apply h-[50px] w-[50px] p-0 justify-center items-center flex;
-    }
+  #theme-switch {
+    @apply h-[50px] w-[50px] p-0 justify-center items-center flex;
+  }
 
-    .nav {
-        @apply text-dark-lite font-medium text-lg hover:text-dark-deep dark:text-white-deep dark:hover:text-white-lite;
-    }
+  .nav {
+    @apply text-dark-lite font-medium text-lg hover:text-dark-deep dark:text-white-deep dark:hover:text-white-lite;
+  }
 
-    .button {
-        @apply bg-gradient-to-r from-primary2 to-primary1 py-2 px-3 rounded-xl text-white font-semibold;
-    }
+  .button {
+    @apply bg-gradient-to-r from-primary2 to-primary1 py-2 px-3 rounded-xl text-white font-semibold;
+  }
 
-    .lang {
-        @apply transition duration-200 ease-in hover:-translate-y-1 hover:scale-110 cursor-pointer;
-    }
-    .language{
-        @apply text-[10px] text-[#172635]/70 bg-[rgba(0,0,0,0.03)] hover:text-[#172635] duration-300 rounded-[4px] px-2 py-[2px] dark:text-dark-deep dark:bg-white-deep dark:hover:text-black;
-    }
+  .lang {
+    @apply transition duration-200 ease-in hover:-translate-y-1 hover:scale-110 cursor-pointer;
+  }
+  .language {
+    @apply text-[10px] text-[#172635]/70 bg-[rgba(0,0,0,0.03)] hover:text-[#172635] duration-300 rounded-[4px] px-2 py-[2px] dark:text-dark-deep dark:bg-white-deep dark:hover:text-black;
+  }
+  .hero-icon {
+    @apply border border-solid border-[#172635] rounded-[50%] w-[40px] h-[40px] flex items-center justify-center text-2xl dark:text-white dark:border-white;
+  }
 }
