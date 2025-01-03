@@ -3095,8 +3095,8 @@ details.collapse summary::-webkit-details-marker {
     width: 30%;
   }
 
-  .lg\:w-\[300px\] {
-    width: 300px;
+  .lg\:w-\[320px\] {
+    width: 320px;
   }
 
   .lg\:w-\[70\%\] {
@@ -3105,42 +3105,6 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:w-auto {
     width: auto;
-  }
-
-  .lg\:w-\[320px\] {
-    width: 320px;
-  }
-
-  .lg\:w-\[330px\] {
-    width: 330px;
-  }
-
-  .lg\:w-\[30px\] {
-    width: 30px;
-  }
-
-  .lg\:w-\[310px\] {
-    width: 310px;
-  }
-
-  .lg\:w-\[3540px\] {
-    width: 3540px;
-  }
-
-  .lg\:w-\[350px\] {
-    width: 350px;
-  }
-
-  .lg\:w-\[2000px\] {
-    width: 2000px;
-  }
-
-  .lg\:w-\[200px\] {
-    width: 200px;
-  }
-
-  .lg\:w-\[0px\] {
-    width: 0px;
   }
 
   .lg\:grid-cols-6 {
