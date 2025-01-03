@@ -2155,10 +2155,6 @@ details.collapse summary::-webkit-details-marker {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.visible {
-  visibility: visible;
-}
-
 .collapse {
   visibility: collapse;
 }
@@ -2378,10 +2374,6 @@ details.collapse summary::-webkit-details-marker {
 
 .gap-20 {
   gap: 5rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .gap-4 {
@@ -2672,6 +2664,10 @@ details.collapse summary::-webkit-details-marker {
   padding-top: 1rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2775,11 +2771,6 @@ details.collapse summary::-webkit-details-marker {
 
 .text-\[\#172635\]\/60 {
   color: rgb(23 38 53 / 0.6);
-}
-
-.text-\[\#38BD67\] {
-  --tw-text-opacity: 1;
-  color: rgb(56 189 103 / var(--tw-text-opacity));
 }
 
 .text-black {
@@ -2983,10 +2974,6 @@ details.collapse summary::-webkit-details-marker {
 
   .max-sm\:flex-col {
     flex-direction: column;
-  }
-
-  .max-sm\:gap-0 {
-    gap: 0px;
   }
 
   .max-sm\:gap-5 {
