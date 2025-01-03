@@ -3259,6 +3259,10 @@ details.collapse summary::-webkit-details-marker {
     align-items: flex-start;
   }
 
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
