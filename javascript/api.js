@@ -28,7 +28,7 @@ const workFunction = async () => {
   allData.forEach((data) => {
     const { image, heading, paragraph, tools, live } = data;
     const card = document.createElement("div");
-    card.className = "slick-slide swiper-slide outline-none w-[307px]";
+    card.className = "slick-slide swiper-slide outline-none w-full";
     card.innerHTML = `
                 <div class="flex flex-col border rounded-[16px] w-full dark:border-[#242222]">
                   <img src="${image}" class="max-h-[200px] min-h-[200px] w-full object-cover rounded-t-[16px]" />
@@ -42,7 +42,14 @@ const workFunction = async () => {
                       ${tools[3] ? '<span class="language">' + tools[3] + "</span>" : ""}
                     </div>
                     <div class="flex justify-between items-center mt-5 cursor-pointer dark:text-white-deep">
-                      <a href="${live}" target="_blank" class="flex items-center gap-[6px]"><i class="fa-solid fa-link"></i><span class="text-[12px] underline">Live Preview</span></a>
+                      <a href="${live}" target="_blank" class="flex items-center gap-[6px]">
+                      <i class="fa-solid fa-link"></i>
+                      <span class="text-[12px] underline">Live Preview</span>
+                      </a>
+                      <a href="${live}" target="_blank" class="flex items-center gap-[6px]">
+                      <i class="fa-brands fa-github"></i>
+                      <span class="text-[12px] underline">Github</span>
+                      </a>
                     </div>
                   </div>
                 </div>
